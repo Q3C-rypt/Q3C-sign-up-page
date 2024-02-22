@@ -31,27 +31,25 @@ const App = () => {
         }
        
     return (
-        <div>
-             <video src={video} autoPlay muted loop playbackRate={0.5} />
             <div className="sign-up">
-                <h2 className = "text" >Welcome To Q3C!</h2>
-                <h1 className = "des">Queen's Cryptography and Cybersecurity Club!</h1>
-                <h6 className = "des_det">
+                <video src={video} autoPlay muted loop />
+                <h2 className="text">Welcome To Q3C!</h2>
+                <h1 className="des">Queen's Cryptography and Cybersecurity Club!</h1>
+                <h6 className="des_det">
                     Sign up with your email below to stay up to date with all future club activities.
                     This includes projects, workshops and general member applications!
                 </h6>
-                <form onSubmit={submitHandler} className = "blur_box">
-                    <h2 className = "Sub" >Please provide your Email: </h2>
-                    <input type="email" className = "email" onChange={inputHandler} value = {input}/>
+                <form onSubmit={submitHandler} className="blur_box">
+                    <h2 className="Sub">Please provide your Email: </h2>
+                    <input type="email" className="email" onChange={inputHandler} value={input} />
                     <button type="submit" className="submit-button">
-                        <text className= "submit" >Submit</text>
+                        <text className="submit">Submit</text>
                     </button>
-                    {message && <alert className = "alert">
-                    {message}
+                    {message && <alert className="alert">
+                        {message}
                     </alert>}
                 </form>
             </div>
-        </div>
     )
 }
 
