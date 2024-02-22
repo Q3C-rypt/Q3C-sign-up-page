@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Q3C-sign-up-page/static/css/main.30b11968.css",
-    "main.js": "/Q3C-sign-up-page/static/js/main.8ede1c33.js",
+    "main.js": "/Q3C-sign-up-page/static/js/main.c23272dd.js",
     "static/media/binary_back.mp4": "/Q3C-sign-up-page/static/media/binary_back.7c6387f0fd8942d90727.mp4",
     "index.html": "/Q3C-sign-up-page/index.html",
     "main.30b11968.css.map": "/Q3C-sign-up-page/static/css/main.30b11968.css.map",
-    "main.8ede1c33.js.map": "/Q3C-sign-up-page/static/js/main.8ede1c33.js.map"
+    "main.c23272dd.js.map": "/Q3C-sign-up-page/static/js/main.c23272dd.js.map"
   },
   "entrypoints": [
     "static/css/main.30b11968.css",
-    "static/js/main.8ede1c33.js"
+    "static/js/main.c23272dd.js"
   ]
 }
