@@ -145,7 +145,7 @@ video{
 /* Phones and ipades */
 @media (max-width: 700px){
     .blur_box{
-        bottom: 300px;
+        bottom: 225px;
         min-width: 250px;
     }
 
