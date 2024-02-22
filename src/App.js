@@ -32,8 +32,8 @@ const App = () => {
        
     return (
         <div>
+             <video src={video} autoPlay muted loop playbackRate={0.5} />
             <div className="sign-up">
-                <video src={video} autoPlay muted loop playbackRate={0.5} />
                 <h2 className = "text" >Welcome To Q3C!</h2>
                 <h1 className = "des">Queen's Cryptography and Cybersecurity Club!</h1>
                 <h6 className = "des_det">
