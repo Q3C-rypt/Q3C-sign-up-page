@@ -1,4 +1,4 @@
-#Sign up for Q3C: https://q3c-rypt.github.io/Q3C-sign-up-page/
+Sign up for Q3C: https://q3c-rypt.github.io/Q3C-sign-up-page/
 
 # Getting Started with Create React App
 
